@@ -2,6 +2,9 @@
 
 This package allows you to draw justified text to images.
 
+Installation:
+```pip install justipy```
+
 Usage example:
 
 ```python
