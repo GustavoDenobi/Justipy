@@ -64,6 +64,9 @@ class Justipy:
             self.paragraphs_lines = []
             self.getParagraphs()
             self.drawJustifiedText()
+            
+    def getImage(self):
+        return self.im
 
     def getStringSize(self, text):
         im = Image.new('RGB', (self.max_width, self.fontsize))
